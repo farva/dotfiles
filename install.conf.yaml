@@ -1,0 +1,17 @@
+- clean: ['~']
+
+- link:
+    ~/.profile: profile
+    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
+    ~/.bash_logout: bash_logout
+    ~/.gitconfig: gitconfig
+    ~/.aliases: aliases
+    ~/bin:
+        path: bin/
+        create: true
+    ~/.config/openbox:
+        path: config/openbox/
+        create: true
+
+
