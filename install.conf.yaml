@@ -7,11 +7,12 @@
     ~/.bash_logout: bash_logout
     ~/.gitconfig: gitconfig
     ~/.aliases: aliases
+    ~/.gitignore_global: gitignore_global
     ~/bin:
         path: bin/
         create: true
-    ~/.config/openbox:
-        path: config/openbox/
-        create: true
+    # ~/.config/openbox:
+    #     path: config/openbox/
+    #     create: true
 
 

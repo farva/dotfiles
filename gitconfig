@@ -1,3 +1,5 @@
 [user]
 	email = farva@a.baby
 	name = farva
+[core]
+	excludesfile = /home/oren/.gitignore_global
