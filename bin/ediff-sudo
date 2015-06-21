@@ -1,3 +1,7 @@
-#!/bin/sh
+#
+# ediff-sudo
+#
 
-sudo -u oren ediff /sudo::$1 /sudo::$2
+# not in .functions since needs to be be available under sudo
+# not in .aliases since it needs to inject cmd-line arguments in string
+emacsclient --alternate-editor="" --eval "(ediff-files \"/sudo::$1\" \"/sudo::$2\")"

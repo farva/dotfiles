@@ -1,0 +1,9 @@
+#
+# ~/.env
+#
+
+# add user's bin to path
+PATH=$PATH:~/bin
+
+# use emacs (as regular user) as the diff tool of pacmatic
+export DIFFPROG="sudo -u $USER ediff-sudo"
