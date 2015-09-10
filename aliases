@@ -30,5 +30,15 @@ alias pacunlock="sudo rm /var/lib/pacman/db.lck"   # Delete the lock file /var/l
 alias paclock="sudo touch /var/lib/pacman/db.lck"  # Create the lock file /var/lib/pacman/db.lck
 
 # Emacs
-alias emacs="emacsclient --alternate-editor=\"\" -c"
+alias semacs="emacsclient --alternate-editor=\"\" -c"
 alias emacs-server-kill="emacsclient --eval \"(kill-emacs)\""
+
+# expand aliases in sudo
+alias sudo='sudo '
+
+# ls aliases
+alias ls='ls --color=auto'
+alias ll='ls -l'
+
+# chrome
+alias chromium='chromium --disable-sync-preferences'

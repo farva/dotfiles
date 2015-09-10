@@ -2,8 +2,14 @@
 # ~/.env
 #
 
+PS1='[\u@\h \W]\$ '
+
 # add user's bin to path
 PATH=$PATH:~/bin
 
 # use emacs (as regular user) as the diff tool of pacmatic
-export DIFFPROG="sudo -u $USER ediff-sudo"
+#export DIFFPROG="sudo -u $USER ediff-sudo"
+
+# use pyments plugin for global
+export GTAGSLABEL=pygments
+export GTAGSCONF=/usr/share/gtags/gtags.conf

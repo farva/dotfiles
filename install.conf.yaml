@@ -14,5 +14,8 @@
     # ~/.config/openbox:
     #     path: config/openbox/
     #     create: true
+    ~/.config/awesome:
+        path: config/awesome/
+        create: true
 
 
