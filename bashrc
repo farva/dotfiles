@@ -18,3 +18,4 @@ fi
 # complition
 complete -cf sudo
 
+[[ -f ~/.bashrc_local ]] && . ~/.bashrc_local
